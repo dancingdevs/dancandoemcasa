@@ -20,7 +20,7 @@ body {
 }
 
 .logo-menu-fonte{
-    font-family: "Dancing Script";
+    font-family: "Dancing Script", serif;
     font-style:italic;
 }
 
@@ -31,13 +31,13 @@ body {
 /*---------------------------------------
   TYPOGRAPHY
 -----------------------------------------*/
-
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    color: var(--dark-color);
+    color: var(--white-root-color);
 }
 
 h1,
@@ -236,10 +236,6 @@ strong {
     padding-bottom: 50px;
 }
 
-.section-bg {
-    background-color: var(--section-bg-color);
-}
-
 .section-overlay {
     background-color: var(--black-root-color);
     position: absolute;
@@ -251,9 +247,9 @@ strong {
     opacity: 0.35;
 }
 
-.section-overlay + .container {
-    /*position: relative;*/
-}
+/*.section-overlay + .container-sd {*/
+/*    position: relative;*/
+/*}*/
 
 .tab-content {
     background-color: var(--blue-dark4-color);
@@ -378,107 +374,6 @@ strong {
 .sticky-wrapper.is-sticky .navbar {
     background-color: var(--gray-dark2-color);
 }
-
-.navbar {
-    background: transparent;
-    z-index: 9;
-}
-
-.navbar-brand,
-.navbar-brand:hover {
-    color: var(--text-logo-color);
-    font-size: var(--h6-font-size);
-    font-weight: var(--font-weight-bold);
-    /*  transform:rotateY(180deg);*/
-    /*  transform-origin:20% 40%;*/
-}
-
-.navbar-expand-lg .navbar-nav .nav-link {
-    border-radius: var(--border-radius-large);
-    margin: 0;
-    padding: 20px 10px;
-    /*align:left;*/
-}
-
-.navbar-nav .nav-link {
-    display: inline-block;
-    color: var(--white-root-color);
-    font-size: var(--p-font-size);
-    font-weight: var(--font-weight-normal);
-    position: relative;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-link:hover {
-    color: var(--yellow-root-color);
-}
-
-.navbar-toggler {
-    border: 0;
-    padding: 0;
-    cursor: pointer;
-    margin: 0;
-    width: 30px;
-    height: 35px;
-    outline: none;
-}
-
-.navbar-toggler:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
-    background: transparent;
-}
-
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before,
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
-    transition: top 300ms 50ms ease, -webkit-transform 300ms 350ms ease;
-    transition: top 300ms 50ms ease, transform 300ms 350ms ease;
-    transition: top 300ms 50ms ease, transform 300ms 350ms ease, -webkit-transform 300ms 350ms ease;
-    top: 0;
-}
-
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
-    transform: rotate(45deg);
-}
-
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
-    transform: rotate(-45deg);
-}
-
-.navbar-toggler .navbar-toggler-icon {
-    background: var(--white-color);
-    transition: background 10ms 300ms ease;
-    display: block;
-    width: 20px;
-    height: 2px;
-    position: relative;
-}
-
-.navbar-toggler .navbar-toggler-icon:before,
-.navbar-toggler .navbar-toggler-icon:after {
-    transition: top 300ms 350ms ease, transform 300ms 50ms ease;
-    position: absolute;
-    right: 0;
-    left: 0;
-    background: var(--white-color);
-    width: 20px;
-    height: 2px;
-    content: '';
-}
-
-.navbar-toggler .navbar-toggler-icon::before {
-    top: -8px;
-}
-
-.navbar-toggler .navbar-toggler-icon::after {
-    top: 8px;
-}
-
 
 /*---------------------------------------
   RESPONSIVE STYLES

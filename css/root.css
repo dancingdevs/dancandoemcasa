@@ -65,9 +65,10 @@
     --navbar-bg-hover-color:        var(--green-root-color);
     --navbar-hover-color:           var(--green-root-color);
 
-    --section-bg-color:             var(--black-root-color);
+    --section-bg-color:             var(--white-root-color);
 
     --text-logo-color:              var(--white-logo-color);
+    --text-video-title-color:       var(--red-root-color);
 
     --custom-btn-bg-color:          var(--yellow-light1-color);
 
@@ -75,6 +76,9 @@
 
     --custom-btn-bg-hover-color:    var(--gray-light2-color);
     --custom-btn-hover-color:       var(--gray-dark2-color);
+
+    --whatsapp-btn-bg-color:        rgb(41, 200, 94);
+    --whatsapp-btn-color:           var(--white-root-color);
 
     --dark-color:                   var(--black-root-color);
     --p-color:                      var(--white-root-color);
@@ -102,4 +106,16 @@
     --font-weight-light:            300;
     --font-weight-normal:           400;
     --font-weight-bold:             700;
+
+    /* new */
+    --video-container-width:        636px;
+    --video-description-width:      536px;
+
+    --blocks-title-color:           var(--red-root-color);
+
+    --blocks-description-color:     var(--white-root-color);
+
+    --blocks-item-bg-color:         var(--red-dark2-color);
+    --blocks-item-color:            var(--white-root-color);
 }
+/* ************************************************** */
