@@ -117,5 +117,10 @@
 
     --blocks-item-bg-color:         var(--red-dark2-color);
     --blocks-item-color:            var(--white-root-color);
+
+
+    --card-bg-color:                var(--green-root-color);
+    --card-bg-light-color:          var(--green-light1-color);
+    --card-bg-dark-color:           var(--green-dark1-color);
 }
 /* ************************************************** */
