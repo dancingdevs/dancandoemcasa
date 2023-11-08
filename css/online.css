@@ -13,7 +13,7 @@
     max-width: var(--video-container-width);
 }
 .section-bg {
-    background-color: var(--section-bg-color);
+    /*background-color: var(--section-bg-color);*/
     background-attachment: fixed;
 }
 .container-sd{
