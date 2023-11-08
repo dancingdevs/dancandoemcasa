@@ -17,8 +17,8 @@ h1{
     overflow:hidden;
     border-radius:20px;
     /*min-height:200px;*/
+    width:320px;
     height:200px;
-    width:250px;
     box-shadow: 0 0 12px 0 rgba(0,0,0,0.2);
 
     /*@media (max-width: 768px) {*/
