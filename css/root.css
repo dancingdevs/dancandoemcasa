@@ -122,5 +122,7 @@
     --card-bg-color:                var(--green-root-color);
     --card-bg-light-color:          var(--green-light1-color);
     --card-bg-dark-color:           var(--green-dark1-color);
+
+    --card-title-color:             var(--blue-light4-color);
 }
 /* ************************************************** */

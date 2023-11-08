@@ -17,8 +17,8 @@ h1{
     overflow:hidden;
     border-radius:20px;
     /*min-height:200px;*/
-    width:320px;
-    height:200px;
+    width:450px;
+    height:250px;
     box-shadow: 0 0 12px 0 rgba(0,0,0,0.2);
 
     /*@media (max-width: 768px) {*/
@@ -94,8 +94,9 @@ h1{
     }
     .card-img-overlay {
       transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
-      background: rgb(255,186,33);
-      background: linear-gradient(0deg, rgba(255,186,33,0.3785889355742297) 0%, rgba(255,186,33,1) 100%);
+      /*background: rgb(255,186,33);*/
+      background: rgb(28, 103, 158);
+      background: linear-gradient(0deg, rgba(28, 103, 158,0.3785889355742297) 0%, rgba(28, 103, 158) 100%);
     }
   }
 @media (max-width: 767px){
@@ -127,4 +128,6 @@ h1{
   background-color: inherit;
   padding: 20px 20px;
 }
-
+.card-label{
+  color: var(--card-title-color);
+}
