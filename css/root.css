@@ -108,8 +108,8 @@
     --font-weight-bold:             700;
 
     /* new */
-    --video-container-width:        636px;
-    --video-description-width:      536px;
+    --video-container-width:        836px;
+    --video-description-width:      var(--video-container-width);
 
     --blocks-title-color:           var(--red-root-color);
 
